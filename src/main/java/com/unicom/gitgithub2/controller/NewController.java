@@ -15,6 +15,7 @@ import java.util.List;
 @RestController
 @RequestMapping(value = "news")
 public class NewController {
+    //@GetMapping @PostMapping @putMapping @DeleteMapping
     @RequestMapping(value="getALL")
         public List<News> getAll(){
             News news1=new News(1,"a","aaa");
